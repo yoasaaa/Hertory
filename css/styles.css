@@ -1,0 +1,181 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#title {
+    background-color: #764AF1;
+    color: #F2F2F2;
+    text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1.5;
+
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+    font-size: 1rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* heading */
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+/* Nav bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat;
+    font-weight: 100;
+}
+
+/* Download buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+    right: 30%;
+}
+
+/* Title-image */
+.phone-img {
+    height: 48rem;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* features sections */
+#features {
+    padding: 10% 10%;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.feature-box {
+    
+    padding: 3%;
+}
+
+.icon {
+    color: #9772FB;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #764AF1;
+
+}
+
+/* testimonial section */
+#testimonials {
+    
+    background-color: #9772FB;
+    color: #F2F2F2;
+}
+
+
+.testimonial-img {
+    width: 8%;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+#press {
+    background-color: #9772FB;
+    
+    padding-bottom: 3%;
+    ;
+}
+
+.press-logo {
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-inner {
+    height: 600px;
+}
+
+.carousel-item {
+    padding: 10% 15%;
+}
+
+/* Pricing section */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* cta section */
+#cta {
+    background-color: #764AF1;
+    color: #F2F2F2;
+    padding: 10% 15%;
+}
+
+.cta-heading {
+
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+/* footer section */
+#footer {
+    padding: 10% 15%;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .phone-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+@media (max-width:800px) {
+    .testimonial-text {
+        font-size: 1.5rem;
+    }
+}
